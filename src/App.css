@@ -1,0 +1,33 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #1f1e1e;
+  color: white;    
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.app{
+  background: fixed;
+  /* background-image: url("./bg.jpg"); */
+  background-color: black;
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+}
+.M{
+  display: flex;
+  justify-content:center;
+  }
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
